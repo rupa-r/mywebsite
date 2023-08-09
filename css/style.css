@@ -70,10 +70,16 @@ body {
 
 .skills_section{
     margin: 0px 250px;
+    padding: 50px;
+}
+
+.tools_section{
+    padding: 50px;
 }
 
 .project_section{
     margin: 0px 250px;
+    padding: 50px;
 }
 
 .contact_section{
@@ -82,6 +88,7 @@ body {
 
 .experience_section{
     margin: 0px 250px;
+    padding: 50px;
 }
 
 #small-exp{
@@ -93,6 +100,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         row-gap: 30px;
+        padding: 30px;
     }
 
     .skills-card {
@@ -106,9 +114,14 @@ body {
 
     .skills_section{
         margin: 0px;
+        padding: 30px;
+    }
+    .tools_section{
+        padding: 30px;
     }
     .project_section{
         margin: 0px;
+        padding: 30px;
     }
     .contact_section{
         padding: 30px;
@@ -121,6 +134,7 @@ body {
     }
     .experience_section{
         margin: 0px;
+        padding: 30px;
     }
 }
 
