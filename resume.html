@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+    <style>
+        .fixed-top {
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            .fixed-top {
+                display: block;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            .fixed-top {
+                display: block;
+            }
+        }
+
+        .card {
+            border: none;
+            background-color: transparent;
+        }
+
+        .card img {
+            animation: fadeIn 5s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top" style="background-color: #0a71c6;">
+        <div class="container-fluid">
+            <a style="color: white;" class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#skills_section">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#experience_section">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#project_section">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#resume_section">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact_section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="navbar_section">
+        <div><a style="text-decoration: none;color: #ffffff;" href="/index.html">Rupa Ramesh</a></div>
+        <div class="right_navbar_section">
+            <div><a style="text-decoration: none;color: #ffffff;" href="about.html">About</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#skills_section">Skills</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#experience_section">Experience</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#project_section">Project</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#resume_section">Resume</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#contact_section">Contact</a></div>
+        </div>
+    </div>
+
+    <div class="project_section" id="project_section" style="padding: 50px;background: #F7F8FA;">
+
+        <div
+            style="font-size: 1.75rem;font-weight: 700 !important;text-align: center !important;margin-bottom: 1rem !important;color: #434E5E;">
+            Resume</div>
+
+        <div style="margin: 20px 100px;text-align: justify;line-height: 30px;display: flex;align-items: center;justify-content: center;flex-direction: column;">
+            <img src="/images/resume.png" style="width: 100%;height: 100%;" alt="" srcset=""><br>
+            <div>
+                <a id="downloadLink" style="display: none;"></a>
+                <button id="downloadButton" style="border: none;padding: 10px 40px;background-color: #0a71c6;color: white;border-radius: 4px;font-size: 16px;">Download</button>
+                <button style="border: none;padding: 10px 40px;background-color: #41A4F5;color: white;border-radius: 4px;font-size: 16px;">Print</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact_section" id="contact_section" style="background-color: #0a71c6;height: auto;padding: 50px;">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card" style="background-color: #0a71c6;border: none;color: white;line-height: 3rem;text-align: justify;">
+                    I am a Junior Plugin and Full Stack Developer with over 1+ year of experience at
+                    DailyWorks Commerce Infrastructure Pvt Ltd. Proficient in LAMP, MERN, MEAN, and Payment Integration,
+                    and dedicated to creating bug-free systems that meet client expectations. Check out my project case
+                    studies and resume.
+                    <br>
+                    <div style="display: flex;align-items: center;column-gap: 10px;">
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-brands fa-linkedin-in" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-solid fa-envelope" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-brands fa-github" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-brands fa-whatsapp" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-solid fa-phone" style="color: #2b2c5e;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background-color: #0a71c6;border: none;color: white;">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+        <script>
+            // JavaScript to handle button click and initiate download
+            const downloadButton = document.getElementById('downloadButton');
+            const downloadLink = document.getElementById('downloadLink');
+            
+            downloadButton.addEventListener('click', function() {
+                // Replace with the actual image URL
+                const imageUrl = '/images/resume.png';
+                
+                // Set the image URL and download attribute for the link
+                downloadLink.href = imageUrl;
+                downloadLink.download = 'Rupa-Ramesh-Resume.png';
+                
+                // Programmatically trigger the download
+                downloadLink.click();
+            });
+        </script>
+</body>
+
+</html>

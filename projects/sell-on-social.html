@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+    <style>
+        .fixed-top {
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            .fixed-top {
+                display: block;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 900px) {
+            .fixed-top {
+                display: block;
+            }
+        }
+
+        .card {
+            border: none;
+            background-color: transparent;
+        }
+
+        .card img {
+            animation: fadeIn 5s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top" style="background-color: #0a71c6;">
+        <div class="container-fluid">
+            <a style="color: white;" class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#skills_section">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#experience_section">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#project_section">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#resume_section">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact_section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="navbar_section">
+        <div><a style="text-decoration: none;color: #ffffff;" href="/index.html">Rupa Ramesh</a></div>
+        <div class="right_navbar_section">
+            <div><a style="text-decoration: none;color: #ffffff;" href="about.html">About</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#skills_section">Skills</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#experience_section">Experience</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#project_section">Project</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#resume_section">Resume</a></div>
+            <div><a style="text-decoration: none;color: #ffffff;" href="#contact_section">Contact</a></div>
+        </div>
+    </div>
+
+    <div class="project_section" id="project_section" style="padding: 50px;background: #F7F8FA;">
+
+        <div
+            style="font-size: 1.75rem;font-weight: 700 !important;text-align: center !important;margin-bottom: 1rem !important;color: #434E5E;">
+            <br>Sell On Social</div>
+
+        <div style="text-align: justify;line-height: 30px;">
+            <b>Module Overview:</b><br>
+            Chargely's "Sell On Social" module is designed to allow users to easily sell their products directly through
+            their social media platforms. This is achieved by generating links that, when clicked, lead potential buyers
+            to a product page or checkout page, making the purchasing process smooth and convenient.
+            <br><br>
+            <b>Example Scenario:</b><br>
+            Let's say Jane runs an online clothing store and wants to sell her latest collection through her social
+            media channels, specifically Instagram and Facebook. She uses Chargely's "Sell On Social" module to create
+            auto-generated links for her products.
+            <br><br>
+            
+            <b>Product Setup:</b><br>
+
+            Jane logs in to her Chargely account and navigates to the "Sell On Social" module.
+            She selects the product she wants to sell through social media.
+            She provides product details such as name, description, images, price, and any other relevant information.
+            
+            <br><br>
+            <b>Link Generation:</b><br>
+
+            Once the product details are set, Jane clicks on the "Generate Social Link" button.
+            Chargely's system generates a unique link specifically for this product.
+            
+            <br><br>
+            <b>Sharing on Social Media:</b><br>
+
+            Jane copies the auto-generated link provided by Chargely.
+            She goes to her Instagram and Facebook accounts and creates posts about her new collection.
+            In her posts, she pastes the auto-generated link along with appealing images and captions.
+            
+            <br><br>
+            <b>User Interaction:</b><br>
+
+            Jane's followers on Instagram and Facebook see her posts about the new collection.
+            Interested users click on the auto-generated link to view the product details.
+            
+            <br><br>
+            <b>Product Viewing and Purchase:</b><br>
+
+            Clicking the link takes users to a Chargely-hosted page showcasing the product details.
+            Users can see product images, read descriptions, view prices, and choose sizes or variants if applicable.
+            Users add the product to their cart and proceed to checkout.
+            
+            <br><br>
+            <b>Checkout and Payment:</b><br>
+
+            The checkout process occurs on the Chargely platform.
+            Users provide shipping information, select payment methods, and finalize the purchase.
+            
+            <br><br>
+            <b>Confirmation:</b><br>
+
+            After successful payment, users receive confirmation emails and order details.
+            Jane also gets notified about the order through her Chargely dashboard.
+            
+            <br><br>
+            <b>Technologies Used:</b><br>
+
+            <b>Front-End and User Interface:</b>
+
+            HTML, CSS for designing the user interface.
+            JavaScript for dynamic interactions.
+            
+            <br><br>
+            <b>Back-End and Backend:</b>
+
+            Node.js and Express.js for server-side logic.
+            MongoDB for storing product and order data.
+            
+            <br><br>
+            <b>Link Generation:</b>
+
+            Unique identifiers to generate auto-generated links.
+            
+            <br><br>
+            <b>Payment Integration:</b>
+
+            Integration with payment gateways for secure transactions.
+            
+            <br><br>
+            <b>Hosting and Deployment:</b>
+
+            Deployed using services like Heroku or AWS.
+            
+            <br><br>
+            <b>Summary:</b><br>
+            Chargely's "Sell On Social" module empowers sellers like Jane to effortlessly sell products through social
+            media platforms by generating unique links. This enables a broader audience reach and simplifies the
+            purchasing process for potential buyers. The module integrates various technologies to create a seamless
+            experience for both sellers and customers.
+        </div>
+    </div>
+
+    <div class="contact_section" id="contact_section" style="background-color: #0a71c6;height: auto;padding: 50px;">
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card" style="background-color: #0a71c6;border: none;color: white;line-height: 3rem;text-align: justify;">
+                    I am a Junior Plugin and Full Stack Developer with over 1+ year of experience at
+                    DailyWorks Commerce Infrastructure Pvt Ltd. Proficient in LAMP, MERN, MEAN, and Payment Integration,
+                    and dedicated to creating bug-free systems that meet client expectations. Check out my project case
+                    studies and resume.
+                    <br>
+                    <div style="display: flex;align-items: center;column-gap: 10px;">
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-brands fa-linkedin-in" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-solid fa-envelope" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-brands fa-github" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-brands fa-whatsapp" style="color: #2b2c5e;"></i>
+                        </div>
+                        <div
+                            style="display: flex;align-items: center;justify-content: center;height: 40px;width: 40px;border: 1px solid white;border-radius: 50px;margin-top: 10px;background-color: white;cursor: pointer;">
+                            <i class="fa-solid fa-phone" style="color: #2b2c5e;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background-color: #0a71c6;border: none;color: white;">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
